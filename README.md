@@ -5,23 +5,18 @@ This demo app shows how to use Breakpad with HockeyApp on Android. The app consi
 1. Clone this repository:
 
         cd ~/Projects
-        git clone git://github.com/ashtom/breakapp.git
+        git clone git://github.com/chris-allen/breakapp.git
         
 2. Checkout Google Breakpad in the same directory:
 
         svn checkout http://google-breakpad.googlecode.com/svn/trunk/ Breakpad
-
-3. Build Breakpad:
-
-        cd ~/Projects/Breakpad
-        ./configure && make
         
-4. Build the native code:
+3. Build the native code:
 
         cd ~/Projects/BreakApp
         ndk-build
 
-5. Open the Java project in Eclipse and run it on your Android device.
+4. Open the Java project in Eclipse and run it on your Android device.
 
 ## Details
 
